@@ -1,0 +1,45 @@
+.card_body_adding_section{
+  display: flex;
+
+  .card_body_button{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.task_list{
+  margin: 30px;
+
+  .list_item{
+    display: flex;
+    align-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-top: 10px;
+
+    .task_status{
+      color: green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    .task_description  {
+      padding: 10px;
+      padding-left: 20px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .task_buttons{
+      display: flex;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      button{
+      }
+    }
+  }
+}
+
